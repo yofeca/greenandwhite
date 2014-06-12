@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+	.navbar > .container > .navbar-header > .navbar-brand > img{
+		width: 200px !important;
+		margin-top: -7px;
+	}
+	header .container .input-group > span > button{
+		border-top-width: 0px;
+	}
+	.navbar .container .navbar-collapse{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.navbar .container .navbar-collapse  .navbar-nav > li{
+		margin: 0px -20px;
+		padding: 0px;
+	}
+	#wrap {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		/* Negative indent footer by it's height */
+		margin: 0 auto -340px;
+	}
+	
+	footer, #push{
+		height: 340px;
+	}
+	#wrap .container > div .content-column{
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0px;
+	}
+	#wrap .content{
+		padding: 0px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#wrap {
+	
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		/* Negative indent footer by it's height */
+		margin: 0 auto -140px;
+	}
+	
+	footer, #push{
+		height: 140px;
+	}
+}
+
+@media (min-width: 992px) {
+	#wrap {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		/* Negative indent footer by it's height */
+		margin: 0 auto -160px;
+	}
+	
+	footer, #push{
+		height: 160px;
+	}
+	
+	.navbar .container .navbar-collapse{
+		padding-left: -15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#wrap {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		/* Negative indent footer by it's height */
+		margin: 0 auto -140px;
+	}
+	
+	footer, #push{
+		height: 140px;
+	}
+	
+	.navbar .container .navbar-collapse{
+		padding-left: -15px;
+	}
+}

@@ -1,0 +1,143 @@
+html, body{ overflow-x: hidden; }
+body { padding-top: 60px; background: #F5F5F5; font-family: Lato, sans-serif; }
+
+/*--Footer Styles--*/
+footer { background: #000; color: #FFF; }
+footer #copyright{ text-align: left; color: #C3C3C3; font-size: 12px; margin: 0px 50px; padding: 0; }
+footer hr { border-top: 1px solid #333333; margin-top: 10px; margin-bottom: 10px; }
+footer p { font-size: 11px; }
+
+/*--NavBar Styles--*/
+.navbar { background-color: #000; border: none; }
+.navbar .navbar-header .icon-bar { color: #FFF; }
+.navbar .navbar-header .brand img { width: 300px; margin: 10px 0 10px 20px; }
+.navbar .container .navbar-header .btn .icon-bar{ background-color: #FFF; border: 1px solid #FFF; }
+
+/*--NavBar Search--*/
+.lg-search-btn , #nav_login_btn{  background: #41A62A !important; width: 60px ; height: 70px; border-radius: 0px; }
+.search-button-items { background: #41A62A !important; padding-top: 15px; border-color: #41A62A; }
+.search-button-items-alt {  height: 60px; background: #41A62A; margin-top: -20px; position: absolute; z-index: 1000;}
+#search-button , #nav_login_btn{ background: #41A62A !important; width: 60px ; height: 70px; margin: 0; border-radius: 0px; }
+
+/*--NavBar Responsive Links--*/
+.nav li > a:hover, nav > li a:focus { background: #41A62A; }
+a.topnav-item { padding: 10px 30px !important; }
+a.topnav-item:first-child, a.sidenav-item:first-child{border-top: 1px solid #333333;}
+a.topnav-item, a.sidenav-item { text-decoration: none; border-bottom: 1px solid #333333; display: block; margin-bottom: -1px; color: #FFF; }
+a.topnav-item.active, a.sidenav-item.active { color: #55D737; background-color: #000; font-weight: 900; }
+a.sidenav-item:hover, a.sidenav-item:hover, a.sidenav-item:focus { color: #FFFFFF; background-color: #24890D; border-color: #787878; }
+a.topnav-item:hover, a.topnav-item:hover, a.topnav-item:focus { color: #24890D !important; background-color: #000 !important; z-index: 0; }
+.topnav{ padding: 0; background-color: #000; font-size: 14px; }
+
+/*--Left Navigation Styles--*/
+#sidebar{ font-size: 13px; color: #FFF; background-color: #000; padding: 20px 0; }
+.widget-title{ font-size: 13px; font-weight: bold; display: block; margin: 50px 0 20px 0; }
+#sidebar a.sidenav-item { width: 100%; padding: 10px 0 10px 20px; }
+
+#archives, #footer-archives{ font-size: 13px; width: 90%; margin: 0 auto !important; margin-top: 30px !important; padding: 0 10px; }
+#archives a:link, #archives a:visited, #footer-archives a:link, #footer-archives a:visited { text-decoration: none; color: #FFF; display: block; padding: 5px 0; }
+#archives a:hover, #footer-archives a:hover { color:#55D737; }
+
+#contact-us-form, #footer-contact-us-form { font-size: 11px; height: 100%; width: 90%; margin: 0 auto !important; margin-top: 30px !important; padding: 0 10px; }
+#contact-us-form label, #footer-contact-us-form label{ color: #FFF; margin: 0; font-size: 11px; }
+
+#contact-us-form .form-control, #footer-contact-us-form .form-control{
+    background-color: #191919;
+    background-image: none;
+    border: 1px solid #464646;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #FFFFF1;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+    font-size: 11px;
+}
+#contact-us-form textarea, #footer-contact-us-form textarea{ resize: none; }
+
+#contact-us-form input.form-control, #footer-contact-us-form input.form-control {
+    height: 24px;
+    line-height: 1.42857;
+}
+
+#login-button{
+    margin: 20px 20px;
+}
+.modal-footer button, #footer-contact-us-form button, #login-button{
+    background-color: #41A62A;
+    border: 0 none;
+    color: #FFFFF1;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 15px 4px;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border-radius: 2px;
+}
+
+#nav_login_btn{
+    background: #FFF;
+}
+
+.modal-content { background: #000; border: none; }
+.panel-heading, .modal-header, .modal-footer { background: #191919; border: 1px solid #191919; }
+.modal-header { border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.modal-footer { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.modal-header button { color: #41A62A; opacity: 1; }
+
+.panel-heading { background: #191919 !important; border: 1px solid #191919 !important; color: #FFF !important; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important;}
+.panel-body { border: 1px solid #000;}
+.panel-title{ font-weight: bold !important; }
+
+/*--Content Styles--*/
+#content { padding-top: 20px; background: #FFF; }
+#carousel-announcement .item img { width: 100%; }
+#content-row { margin: 0px !important; }
+#announcement-images { padding: 0 !important; }
+
+
+/*--Screen Smaller than 767px--*/
+@media(max-width: 767px){
+
+    .container{ padding: 0; margin: 0 !important; width:100%; }
+
+    .navbar { padding: 0; }
+    .navbar .navbar-header .brand img { width: 200px; margin-left: 20px; margin-top: 5px; }
+    .navbar-link-items{ display: block; }
+    #search-button-items {display: block; }
+
+    #sidebar{ display:none; }
+
+    .search-button-items-alt, .lg-search-btn, #nav_login_btn { display: none; }
+}
+
+/*--Screen between 768px and 992px--*/
+@media(min-width: 768px){
+    /*    .navbar { width: 992px; }*/
+    .navbar-link-items{ display: none; }
+    #search-button-items {display: none; }
+
+    .container { width:100%; padding: 0; margin: 0 !important; }
+    .xs-divider{ display: none; }
+    /*    #content { margin-left: -20px;}*/
+    .lg-search-btn { float: right; }
+    #nav_login_btn { display: block; float: right; margin-right: 2px;}
+}
+
+/*--Screen equal to 992px and up--*/
+@media(min-width: 992px){
+    .navbar-link-items{ display: none; }
+    #search-button-items {display: none; }
+
+    .container { width: 100%; padding: 0; margin: 0 !important; }
+    .xs-divider{ display: none; }
+    /*    #content { margin-left: -70px; }*/
+    .lg-search-btn { float: right; }
+    #nav_login_btn { display: block; float: right; margin-right: 2px;}
+
+}
+
+/*@media(min-width: 1170px) {
+    .navbar { width: 1170px; }
+}*/

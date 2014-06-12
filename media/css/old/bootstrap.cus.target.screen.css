@@ -1,0 +1,47 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 768px) {
+	.navbar > .container > .navbar-header > .navbar-brand > img{
+		width: 200px !important;
+		margin-top: -7px;
+	}
+	
+	#push, footer{
+		height: 340px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#push, footer{
+		height: 220px;
+	}
+	header .container .input-group > span > button{
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	header .container .input-group > span > button{
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1366px) {
+	header .container .input-group > span > button{
+		border-top-width: 2px;
+		border-bottom-width: 2px;
+	}
+}
+
+@media (min-width: 1500px) {
+	header .container .input-group > span > button{
+		border-top-width: 2px;
+		border-bottom-width: 2px;
+	}
+}

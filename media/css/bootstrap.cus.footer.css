@@ -1,0 +1,42 @@
+	footer, footer .container .row > div > address > strong{
+		background: #000;
+		color: #FFF;
+	}
+footer .container .row > div > address{
+	color: #00A950;
+}
+
+footer .container .row > div > address > strong {
+	color: #FFF;
+}
+
+footer > hr {
+	background-color: #151314;
+	margin: 10px 0;
+}
+
+footer > p {
+	text-align: center;
+}
+
+footer{
+	margin-top: 15px;
+}
+
+.all-logos > img{
+	width: 300px;
+}
+
+footer .container .row > div {
+	margin-top: 0px;
+}
+
+footer .container .row{
+	padding-top: 10px;
+}
+
+footer .container{
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+	

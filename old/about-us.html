@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>About Us</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/myStyle.css">
+
+        <script src="js/jquery-2.0.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar navbar-fixed-top" role="navigation">
+            <button type="button" class="btn btn-navbar lg-search-btn">
+                <span class="sr-only">Toggle Search box</span>
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+            <!--<button type="button" class="btn btn-navbar" data-toggle="modal" data-target="#loginModal" id="nav_login_btn">
+                <span class="sr-only">Toggle Login</span>
+                <span class="glyphicon glyphicon-log-in"></span>
+            </button>-->
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target="#links" id="navbar-link">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".search-button-items" id="search-button">
+                        <span class="sr-only">Toggle Search box</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+
+                    <a class="brand" href="index.html">
+                        <img src="img/logo.png" />
+                    </a>
+                </div>
+
+                <div class="navbar-link-items">
+                    <ul class="topnav collapse navbar-collapse nav navbar-nav" id="links">
+                        <li><a href="index.html" class="topnav-item">HOME</a></li>
+                        <li><a href="yearbook-registration.html" class="topnav-item">YEARBOOK REGISTRATION</a></li>
+                        <li><a href="photo-packages.html" class="topnav-item">PHOTO PACKAGES</a></li>
+                        <li><a href="pictorial-scheduling.html" class="topnav-item">PICTORIAL SCHEDULING</a></li>
+                        <li><a href="online-verification.html" class="topnav-item">ONLINE VERIFICATION</a></li>
+                        <li><a href="photo-yearbook-distribution.html" class="topnav-item">PHOTO & YEARBOOK DISTRIBUTION</a></li>
+                        <li><a href="about-us.html" class="topnav-item active">ABOUT US</a></li>
+                        <li><a href="sponsors.html" class="topnav-item">SPONSORS</a></li>
+						<li><a href="faq.html" class="topnav-item">FAQ</a></li>
+                    </ul>
+
+                    <div class="collapse navbar-collapse search-button-items">
+                        <div class="form-group has-success has-feedback">
+                            <input type="text" class="form-control" id="inputError2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="background: #000;">
+
+            <div class="col-xs-6 col-sm-3 col-md-2" id="sidebar" role="navigation">
+                <div class="sidenav">
+                    <a href="index.html" class="sidenav-item">HOME</a>
+                    <a href="yearbook-registration.html" class="sidenav-item">YEARBOOK REGISTRATION</a>
+                    <a href="photo-packages.html" class="sidenav-item">PHOTO PACKAGES</a>
+                    <a href="pictorial-scheduling.html" class="sidenav-item">PICTORIAL SCHEDULING</a>
+                    <a href="online-verification.html" class="sidenav-item">ONLINE VERIFICATION</a>
+                    <a href="photo-yearbook-distribution.html" class="sidenav-item">PHOTO & YEARBOOK DISTRIBUTION</a>
+                    <a href="about-us.html" class="sidenav-item active">ABOUT US</a>
+                    <a href="sponsors.html" class="sidenav-item">SPONSORS</a>
+                    <a href="#" class="sidenav-item" data-toggle="modal" data-target="#myModal">CONTACT US</a>
+										<a href="faq.html" class="sidenav-item">FAQ</a>
+                    <button data-toggle="modal" data-target="#loginModal" id="login-button"><span>Login</span></button>
+                </div>
+
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">Login</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="contact-us-form">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label for="username">Username:</label>
+                                            <input type="text" class="form-control" id="username" placeholder="Enter username...">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password:</label>
+                                            <input type="password" class="form-control" id="password" placeholder="Enter password...">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="contact-us-form">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label for="contact-name">Name:</label>
+                                            <input type="email" class="form-control" id="contact-name" placeholder="Enter name.">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact-id-number">ID Number:</label>
+                                            <input type="email" class="form-control" id="contact-id-number" placeholder="Enter School ID No.">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact-id-number">Email:</label>
+                                            <input type="email" class="form-control" id="contact-email-add" placeholder="Enter email.">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="contact-message">Message:</label>
+                                            <textarea class="form-control" rows="3" id="contact-message" placeholder="Enter message."></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+				<!--
+                <div id="archives">
+                    <h1 class="widget-title">ARCHIVES</h1>
+                    <a href="#">November 2013</a>
+                    <a href="#">February 2013</a>
+                    <a href="#">November 2012</a>
+                    <a href="#">February 2012</a>
+                    <a href="#">September 2011</a>
+                    <a href="#">July 2011</a>
+                    <a href="#">June 2011</a>
+                    <a href="#">January 2011</a>
+                </div>
+				-->
+				
+				<div id="contact-details" style="margin-left: 20px">
+					<h1 class="widget-title">CONTACT DETAILS</h1>
+					<strong>Telephone Number:</strong>
+					<p>524-4611 or Local 205</p>
+					<strong>Address:</strong>
+					<p>Rm. 503-B, Br. Gabriel Cannon <br>
+					Hall 2401 Taft Avenue, Manila</p>
+				</div>
+				
+            </div>
+
+            <div class="col-xs-12 col-sm-9 col-md-10" id="content">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 search-button-items-alt">
+                        <div class="row">
+                            <div class="col-sm-5 pull-right">
+                                <input type="text" class="form-control" placeholder="Seach..." style="margin-top: 10px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-9"> <!--Column content-->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title"><strong>About Us</strong></h3>
+							</div>
+							<div class="panel-body">
+								<p>Green & White is the official yearbook publication of De La Salle University. 
+								Operating since 1924, the organization is driven towards the production of yearbooks worthy of the Lasallian name, 
+								as it also aims to provide quality services to its subscribers.</p>
+								
+								<p>Green & White has not only been known to excel in its business, but to cultivate qualities of leadership, 
+								dedication, and diligence among its members as well. Throughout its years in operation, Green & White has surpassed 
+								the characteristics of an organization, as it has evolved into a family driven towards the achievement of one goal: 
+								capturing images of Lasallian excellence.</p>
+								<br />
+								<h4>Vision:</h4>
+								<p>Green & White envisions itself at the forefront of excellence through self-reliance and dynamism that provides 
+								products of utmost quality by optimizing new technology, exhibiting professionalism, and instilling a sense of social 
+								responsibility that complements the Lasallian experience.</p>
+								<br />
+								<h4>Mission:</h4>
+								<ul>
+									<li>Enhancing camaraderie among its staff by furthering trust, effective communication, and responsibility toward each other.</li>
+									<li>Providing excellent services by maintaining professionalism, efficiency and open communication with its customers and stakeholders.</li>
+									<li>Promoting social awareness and encouraging involvement among its staff, customers and stakeholders.</li>
+									<li>Providing opportunities for self-improvement and development among its staff that would translate to self-reliance.</li>
+									<li>Continuing the tradition of capturing images of Lasallian Excellence.</li>
+								</ul>
+							</div>
+						</div><!--End of Column content-->
+                    </div>
+
+                    <div class="col-md-3 hidden-sm hidden-xs" style="margin-left: -15px;">
+                        <img src="img/rightside-ads.png" />
+                    </div>
+
+                    <br/>
+                    <br/>
+                </div>
+            </div><!--end of content-->
+
+            <!--Footer-->
+            <div class="clearfix"></div>
+            <footer>
+                <div class="row">
+                    <div class="row visible-xs">
+                        <div class="col-xs-12">
+                            <div id="footer-contact-us-form">
+                                <h1 class="widget-title">CONTACT US</h1>
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label for="contact-name">Name:</label>
+                                        <input type="email" class="form-control" id="contact-name" placeholder="Enter name.">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact-id-number">ID Number:</label>
+                                        <input type="email" class="form-control" id="contact-id-number" placeholder="Enter School ID No.">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact-id-number">Email:</label>
+                                        <input type="email" class="form-control" id="contact-email-add" placeholder="Enter email.">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="contact-message">Message:</label>
+                                        <textarea class="form-control" rows="3" id="contact-message" placeholder="Enter message."></textarea>
+                                    </div>
+                                    <button style="float: right;" type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+
+							<!--
+                            <div class="col-xs-12">
+                                <div id="footer-archives">
+                                    <h1 class="widget-title">ARCHIVES</h1>
+                                    <a href="#">November 2013</a>
+                                    <a href="#">February 2013</a>
+                                    <a href="#">November 2012</a>
+                                    <a href="#">February 2012</a>
+                                    <a href="#">September 2011</a>
+                                    <a href="#">July 2011</a>
+                                    <a href="#">June 2011</a>
+                                    <a href="#">January 2011</a>
+                                </div>
+                            </div>
+							-->
+							
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row" style="margin-left: -15px; padding-left: -15px; background-color: #000;">
+                        <div class="col-md-12" id="copyright">
+                            <p>&COPY; Green & White 2014, All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </div><!--end of container-->
+        
+        <script>
+            $(document).ready(function() {
+                $('.search-button-items-alt').hide();
+                $('.lg-search-btn').click(function() {
+                    $('.search-button-items-alt').toggle();
+                });
+            });
+
+            $('.carousel').carousel({
+                interval: 2000
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    width: 100%;
+}
+
+.panel-title{
+	font-weight: bold;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
